@@ -3,7 +3,7 @@ name: Build and Push Frontend Docker Image
 on:
   push:
     branches:
-      - main  # or the branch you prefer
+      - main  # Ensure this matches your branch name
 
 jobs:
   build:
