@@ -1,13 +1,13 @@
 version: '3.8'
 services:
   backend:
-      image: your-dockerhub-username/backend-image:latest
+      image: ajaymohite123/backend-image:latest
       ports:
         - "8000:8000"    
       environment:
         - DATABASE_URL=http://127.0.0.1:8000/
         
   frontend:
-    image: your-dockerhub-username/frontend-image:latest
+    image: ajaymohite123/frontend-image:latest
     ports:
       - "3000:3000"
