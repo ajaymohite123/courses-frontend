@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  backend:
+      image: your-dockerhub-username/backend-image:latest
+      ports:
+        - "8000:8000"    
+      environment:
+        - DATABASE_URL=your-database-url
+        
+    frontend:
+      image: your-dockerhub-username/frontend-image:latest
+      ports:
+        - "3000:3000"
